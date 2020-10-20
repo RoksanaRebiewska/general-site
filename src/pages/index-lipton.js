@@ -1,7 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
 import { graphql, useStaticQuery } from "gatsby"
-import Slider from "../components/CarouselLipton/Carousel"
+import SliderLipton from "../components/CarouselLipton/Carousel"
 import ButtonRadius from "../components/Button"
 import Tabs from "../components/TabBrand/TabBrand"
 import Popup from "../components/Popup/Popup"
@@ -25,9 +25,8 @@ const IndexPage = () => {
    <>
     <Section>    
     
-    <p>Test</p>  
-    <p>Test</p>
-    <Slider></Slider>
+      
+    <SliderLipton></SliderLipton>
     </Section>
     </>
   )
