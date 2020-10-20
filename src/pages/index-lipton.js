@@ -25,7 +25,8 @@ const IndexPage = () => {
    <>
     <Section>    
     
-      
+    <p>Test</p>  
+    <p>Test</p>
     <Slider></Slider>
     </Section>
     </>
